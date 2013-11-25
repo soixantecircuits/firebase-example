@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <link rel="stylesheet" href="">
+      <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+  </head>
+  <body>
+  <h1>Hello</h1>
+  <form id="greeting-form" class="has-error">
+                <input class="fname" name="fname" type="text" placeholder="First name" data-validation="required" data-validation-error-msg=" ">
+                <input class="lname error" name="lname" type="text" placeholder="Last name" data-validation="required" data-validation-error-msg=" ">
+                <input class="city" name="city" type="text" placeholder="City name" data-validation="required" data-validation-error-msg=" ">
+                <input id="newCard" class="add button" type="submit" value="Send">
+                <span class="form-error help-block"> </span>
+  </form>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="jquery-1.10.2.min.js"><\/script>')</script>
+  <script src="jquery.serializeJSON.min.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
